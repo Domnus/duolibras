@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "da20bf7f-1b24-45b8-b53c-c0ea0c0ae998"
+      }
+    },
+    "owner": "bentocarlos"
   }
 }
