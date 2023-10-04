@@ -2,7 +2,7 @@ import React from "react";
 
 function Substantivos() {
     return (
-        <div>
+        <div className="substantivos">
             <h1>Substantivos</h1>
         </div>
     );

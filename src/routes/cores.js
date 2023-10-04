@@ -1,11 +1,12 @@
 import React from "react";
 
-function Animais() {
+function Cores() {
     return (
-        <div>
+        <div className="cores">
             <h1>Cores</h1>
         </div>
     );
     
 }
-export default Animais;
+export default Cores;
+

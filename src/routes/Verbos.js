@@ -1,9 +1,10 @@
 import React from "react";
 
-function Animais() {
+
+function Verbos() {
   return (
     <div>
-      <div class="container">
+      <div class="video">
         <div class="main-video-content">
           <video src="" controls muted autoplay></video>
           <label class="main-info"></label>
@@ -14,4 +15,4 @@ function Animais() {
     </div>
   );
 }
-export default Animais;
+export default Verbos;

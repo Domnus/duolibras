@@ -5,8 +5,14 @@ import * as IoIcons from "react-icons/io";
 
 export const SidebarData = [
   {
-    title: "Verbos",
+    title: "Home",
     path: "/",
+    icon: <FaIcons.FaHome />,
+    cName: "nav-text",
+  },
+  {
+    title: "Verbos",
+    path: "/verbos",
     icon: <FaIcons.FaLeanpub />,
     cName: "nav-text",
   },

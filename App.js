@@ -9,12 +9,14 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import Substantivos from "./src/routes/Substantivos";
-import Home from "./src/routes/Home";
+import Verbos from "./src/routes/Verbos";
 import Animais from "./src/routes/Animais";
 import Navbar from "./src/components/NavBar/Navbar";
 import Cores from "./src/routes/Cores";
-import Opcao5 from "./src/routes/opcao5";
-import Opcao6 from "./src/routes/opcao6";
+import Opcao5 from "./src/routes/Opcao5";
+import Opcao6 from "./src/routes/Opcao6";
+import Home from "./src/routes/Home";
+
 import "./src/App.css";
 
 const AppLayout = () => (
@@ -24,35 +26,29 @@ const AppLayout = () => (
   </>
 );
 
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route element={<AppLayout />}>
-//       <Route path="/" element={<Home />} />
-//       <Route path="/products" element={<Products />} />
-//       <Route path="/reports" element={<Reports />} />
-//     </Route>
-//   )
-// );
-
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
     children: [
       {
-        path: "/",
-        element: <Home />,
+        path: "/",  // " / " direicona para pagina incial
+        element: <Home/>,
       },
       {
-        path: "animais",
-        element: <Animais />,
+        path: "verbos", 
+        element: <Verbos/>, 
+      },
+      {
+        path: "animais", // Caminhos das rotas
+        element: <Animais/>, // Componentes que serão renderizados
       },
       {
         path: "substantivos",
-        element: <Substantivos />,
+        element: <Substantivos/>,
       },
       {
         path: "cores",
-        element: <Cores />,
+        element: <Cores/>,
       },
       {
         path: "opcao5",

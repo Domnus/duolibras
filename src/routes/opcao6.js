@@ -1,11 +1,11 @@
 import React from "react";
 
-function Animais() {
+function Opcao6() {
     return (
-        <div>
+        <div className="opcao6">
             <h1>Opção 6</h1>
         </div>
     );
     
 }
-export default Animais;
+export default Opcao6;

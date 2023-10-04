@@ -6,25 +6,19 @@
   padding: 0;
   font-family: "Lato", sans-serif;
 }
+
+/* Navbar CSS = roxo  810fcc*/
 body {
   background-color:#810fcc;
 }
 
 .animais,
 .cores,
-.Verbos {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  background-color: #000;
-  color: #810fcc;
-}
+.Verbos,
 
-/* Navbar CSS */
+/* Navbar CSS = roxo  */
 .navbar {
-  background-color: #810fcc;
+  background-color: #810fcc; 
   height: 80px;
   display: flex;
   justify-content: flex-start;
@@ -48,6 +42,7 @@ body {
   top: 0;
   left: -100%;
   transition: 850ms;
+  z-index: 1; /* Adicione um z-index para colocar a barra lateral abaixo do vídeo */
 }
 
 .nav-menu.active {
