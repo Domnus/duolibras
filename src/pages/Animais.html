@@ -4,15 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animais</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animais.css">
 </head>
 <body>
-    <div class="container">
-        <div class="main-video-content">
-          <video src="" controls muted autoplay></video>
-          <label class="main-info"></label>
-      </div>
+  <div class="container">
+      <div class="heading">Galeria de Vídeos</div>
+        <div class="video-container">
+          <div class="video">
+            <video src="/src/videos/cachorro.mp4" muted></video>
+            <p>Cachorro</p>
+          </div>
+          <div class="video">
+            <video src="/src/videos/gato.mp4" muted></video>
+            <p>Gato</p>
+          </div>
+          <div class="video">
+            <video src="/src/videos/cavalo.mp4" muted></video>
+            <p>Cavalo</p>
+          </div>
+          <div class="video">
+            <video src="/src/videos/peixe.mp4" muted></video>
+            <p>Peixe</p>
+          </div>
+          <div class="video">
+            <video src="/src/videos/leao.mp4" muted></video>
+            <p>Leão</p>
+          </div>
+          <div class="video">
+            <video src="/src/videos/bento.mp4" muted></video>
+            <p>Bento</p>
+          </div>
+        </div>
     </div>
-      <script src="script.js" type="module"></script>
+    <script>
+      var video = document.querySelectorAll('video');
+      video.forEach(play => play.addEventListener('click', () => {
+          play.classList.toggle("active");
+          if (play.paused) {
+              play.play();
+          } else {
+              play.pause();
+              play.currentTime = 0;
+          }
+        }));
+    </script>
+    <script src="/src/script.js"></script>
+
 </body>
 </html>
