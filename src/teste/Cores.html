@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+    <link rel="stylesheet" href="/src/teste/animais.css">
+    <style>
+        /* Estilos para o nome do vídeo */
+        .video-name {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">Cores</div>
+      <div class="video-container">
+        <div class="video">
+          <div class="video-name">Amarelo</div>
+          <video src="/src/videos/cores/amarelo.mp4" muted></video>
+          <p></p>
+        </div>
+        <div class="video">
+          <div class="video-name">Azul</div>
+          <video src="/src/videos/cores/azul.mp4" muted></video>
+          <p></p>
+        </div>
+        <div class="video">
+          <div class="video-name">Bege</div>
+          <video src="/src/videos/cores/bege.mp4" muted></video>
+          <p></p>
+        </div>
+      </div>
+  </div>
+    <script>
+      var video = document.querySelectorAll('video');
+      video.forEach(play => play.addEventListener('click', () => {
+          play.classList.toggle("active");
+          if (play.paused) {
+              play.play();
+          } else {
+              play.pause();
+              play.currentTime = 0;
+          }
+        }));
+    </script>
+</body>
+</html>

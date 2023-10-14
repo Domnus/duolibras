@@ -68,3 +68,9 @@ html{
     transition: none;
     transform: translate(-50%, -50%) scale(1);
 }
+
+.video-name{
+    font-size: 20px;
+    color: white;
+    text-align: center; 
+}
