@@ -226,14 +226,14 @@ body{
 }
 
 section iframe{
-    width: 1757px;  /* largura*/
-    height: 937px; /* altura*/
+    width: 1570px;  /* largura  width: 1757px */
+    height: 930px; /* altura height: 937px*/
     position: absolute;
     top: 0px;
-    left: 120px;
+    left: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 100; 
+    border: 100; /* borda 0 == sem,  */
 }
 

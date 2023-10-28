@@ -1,0 +1,29 @@
+:root{
+    --purple: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+.titulo{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Graphik-Medium';
+}
+.subtitulo{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Graphik-Medium';
+    margin: 30px;
+}
+.subtitulo2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Graphik-Medium';
+    margin: 50px;
+}
