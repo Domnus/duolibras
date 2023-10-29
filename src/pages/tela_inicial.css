@@ -1,29 +1,42 @@
-:root{
+:root {
     --purple: white;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     color: white;
 }
-.titulo{
-    font-size: 100px;
+
+.titulo {
+    font-size: 50px;
     text-align: center;
     font-family: 'Graphik-Medium';
 }
-.subtitulo{
-    font-size: 40px;
+
+.subtitulo {
+    font-size: 30px;
     text-align: center;
     font-family: 'Graphik-Medium';
     margin: 30px;
 }
+
 .subtitulo2{
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Graphik-Medium';
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*.escolha {
+    color: black;
+    font-size: 50px;
     text-align: center;
     font-family: 'Graphik-Medium';
     margin: 50px;
-}
+}*/

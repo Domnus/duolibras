@@ -1,54 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Família</title>
-    <link rel="stylesheet" href="animais.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Família e Relacionamentos</title>
+  <link rel="stylesheet" href="categorias.css">
 </head>
+
 <body>
+  <h1>1) Gênero:<br>
+    Usa o sinal de homem ou mulher depois da palavra.<br><br>
+    Exemplo:<br> Tio(a) + sinal de homem = Tio<br>
+    Tio(a) + sinal de mulher = Tia<br><br>
+  </h1>
   <div class="container">
-    <div class="heading">Família</div>
-      <div class="video-container">
-        <div class="video">
-          <video src="/src/videos/familia/" muted></video>
-          <p></p>
-        </div>
-        <div class="video">
-          <video src="/src/videos/familia/" muted></video>
-          <p></p>
-        </div>
-        <div class="video">
-          <video src="/src/videos/familia/" muted></video>
-          <p></p>
-        </div>
-        <div class="video">
-          <video src="/src/videos/familia/" muted></video>
-          <p></p>
-        </div>
-        <div class="video">
-          <video src="/src/videos/familia/" muted></video>
-          <p></p>
-        </div>
-        <div class="video">
-          <video src="/src/videos/familia/" muted></video>
-          <p></p>
-        </div>
+    <div class="heading">Família & Relacionamentos</div>
+    <div class="video-container">
+      <div class="video">
+        <div class="video-name">Amigos</div>
+        <video src="/src/videos/familia e relacionamentos/amigo e amiga.mp4"></video>
+        <p></p>
       </div>
+      <div class="video">
+        <div class="video-name">Avós</div>
+        <video src="/src/videos/familia e relacionamentos/avô e avó.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Criança</div>
+        <video src="/src/videos/familia e relacionamentos/criança.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Divorciados</div>
+        <video src="/src/videos/familia e relacionamentos/divorciado e divorciada.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Família</div>
+        <video src="/src/videos/familia e relacionamentos/familia.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Filhos</div>
+        <video src="/src/videos/familia e relacionamentos/filho e filha.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Homem</div>
+        <video src="/src/videos/familia e relacionamentos/homem.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Irmãos</div>
+        <video src="/src/videos/familia e relacionamentos/irmao e irma.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Madrasta</div>
+        <video src="/src/videos/familia e relacionamentos/madrasta.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Mãe</div>
+        <video src="/src/videos/familia e relacionamentos/mãe.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Marido e Esposa</div>
+        <video src="/src/videos/familia e relacionamentos/marido esposa casamento e casar.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Mulher</div>
+        <video src="/src/videos/familia e relacionamentos/mulher.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Namorados</div>
+        <video src="/src/videos/familia e relacionamentos/namorado namorada e namorar.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Netos</div>
+        <video src="/src/videos/familia e relacionamentos/neto e neta.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Noivos</div>
+        <video src="/src/videos/familia e relacionamentos/noivo e noiva.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Novo/Velho (contextos)</div>
+        <video src="/src/videos/familia e relacionamentos/contextos velho novo e jovem.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Padrasto</div>
+        <video src="/src/videos/familia e relacionamentos/padrasto.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Pai</div>
+        <video src="/src/videos/familia e relacionamentos/pai.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Primos</div>
+        <video src="/src/videos/familia e relacionamentos/primo e prima.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Sobrinhos</div>
+        <video src="/src/videos/familia e relacionamentos/sobrinho e sobrinha.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Tios</div>
+        <video src="/src/videos/familia e relacionamentos/tio e tia.mp4"></video>
+        <p></p>
+      </div>
+    </div>
   </div>
-    <script>
-      var video = document.querySelectorAll('video');
-      video.forEach(play => play.addEventListener('click', () => {
-          play.classList.toggle("active");
-          if (play.paused) {
-              play.play();
-          } else {
-              play.pause();
-              play.currentTime = 0;
-          }
-        }));
-    </script>
-    <script src="script.js"></script>
+  <script>
+    var video = document.querySelectorAll('video');
+    video.forEach(play => play.addEventListener('click', () => {
+      play.classList.toggle("active");
+      if (play.paused) {
+        play.play();
+      } else {
+        play.pause();
+        play.currentTime = 0;
+      }
+    }));
+  </script>
+  <script src="script.js"></script>
 
 </body>
+
 </html>

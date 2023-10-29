@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentimentos</title>
+    <link rel="stylesheet" href="categorias.css">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">Sentimentos</div>
+      <div class="video-container">
+        <div class="video">
+          <div class="video-name">Alegria</div>
+          <video src="/src/videos/sentimentos/alegria.mp4"></video>
+          <p></p>
+        </div>
+        <div class="video">
+            <div class="video-name">Amor</div>
+            <video src="/src/videos/sentimentos/amor.mp4"></video>
+            <p></p>
+        </div>
+        <div class="video">
+            <div class="video-name">Ansiedade</div>
+            <video src="/src/videos/sentimentos/ansiedade.mp4"></video>
+            <p></p>
+        </div>
+        <div class="video">
+            <div class="video-name">Ciúmes</div>
+            <video src="/src/videos/sentimentos/ciúme.mp4"></video>
+            <p></p>
+        </div>
+        <div class="video">
+            <div class="video-name">Esperança</div>
+            <video src="/src/videos/sentimentos/esperança.mp4"></video>
+            <p></p>
+          </div>
+          <div class="video">
+              <div class="video-name">Felicidade</div>
+              <video src="/src/videos/sentimentos/felicidade.mp4"></video>
+              <p></p>
+          </div>
+          <div class="video">
+              <div class="video-name">Medo</div>
+              <video src="/src/videos/sentimentos/medo.mp4"></video>
+              <p></p>
+          </div>
+          <div class="video">
+              <div class="video-name">Nervoso</div>
+              <video src="/src/videos/sentimentos/nervoso.mp4"></video>
+              <p></p>
+          </div>
+          <div class="video">
+            <div class="video-name">Ódio</div>
+            <video src="/src/videos/sentimentos/ódio.mp4"></video>
+            <p></p>
+          </div>
+          <div class="video">
+              <div class="video-name">Orgulho</div>
+              <video src="/src/videos/sentimentos/orgulho.mp4"></video>
+              <p></p>
+          </div>
+          <div class="video">
+              <div class="video-name">Paciência</div>
+              <video src="/src/videos/sentimentos/paciência.mp4"></video>
+              <p></p>
+          </div>
+          <div class="video">
+              <div class="video-name">Raiva</div>
+              <video src="/src/videos/sentimentos/raiva e seriedade.mp4"></video>
+              <p></p>
+          </div>
+          <div class="video">
+            <div class="video-name">Saudade</div>
+            <video src="/src/videos/sentimentos/saudade.mp4"></video>
+            <p></p>
+          </div>
+          <div class="video">
+              <div class="video-name">Sentimento</div>
+              <video src="/src/videos/sentimentos/sentimento.mp4"></video>
+              <p></p>
+          </div>
+          <div class="video">
+              <div class="video-name">Tristeza</div>
+              <video src="/src/videos/sentimentos/tristeza.mp4"></video>
+              <p></p>
+          </div>
+          <div class="video">
+              <div class="video-name">Vergonha</div>
+              <video src="/src/videos/sentimentos/vergonha.mp4"></video>
+              <p></p>
+          </div>
+      </div>
+  </div>
+    <script>
+      var video = document.querySelectorAll('video');
+      video.forEach(play => play.addEventListener('click', () => {
+          play.classList.toggle("active");
+          if (play.paused) {
+              play.play();
+          } else {
+              play.pause();
+              play.currentTime = 0;
+          }
+        }));
+    </script>
+    <script src="script.js"></script>
+
+</body>
+</html>
