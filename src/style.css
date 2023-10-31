@@ -10,7 +10,7 @@
 
 body{
     background-color: #810fcc;
-
+    overflow: hidden;
 }
 
 .container{
