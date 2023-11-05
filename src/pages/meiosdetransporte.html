@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meios de Transporte</title>
+  <link rel="stylesheet" href="categorias.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">Meios de Transporte</div>
+    <div class="video-container">
+      <div class="video">
+        <div class="video-name">Ambulância e Viatura</div>
+        <video src="/src/videos/meios_de_transporte/ambulancia e viatura.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Avião</div>
+        <video src="/src/videos/meios_de_transporte/aviao.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Barco e Navio</div>
+        <video src="/src/videos/meios_de_transporte/barco e navio.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Bicicleta</div>
+        <video src="/src/videos/meios_de_transporte/bicicleta.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Caminhão e Caminhonete</div>
+        <video src="/src/videos/meios_de_transporte/caminhao e caminhonete.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Carro</div>
+        <video src="/src/videos/meios_de_transporte/carro.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Carroça</div>
+        <video src="/src/videos/meios_de_transporte/carroça.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Guincho</div>
+        <video src="/src/videos/meios_de_transporte/guincho.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Helicóptero</div>
+        <video src="/src/videos/meios_de_transporte/helicoptero.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Metrô</div>
+        <video src="/src/videos/meios_de_transporte/metro.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Moto</div>
+        <video src="/src/videos/meios_de_transporte/moto.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Ônibus</div>
+        <video src="/src/videos/meios_de_transporte/onibus.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Taxi</div>
+        <video src="/src/videos/meios_de_transporte/taxi.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Trator</div>
+        <video src="/src/videos/meios_de_transporte/trator.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Trem</div>
+        <video src="/src/videos/meios_de_transporte/trem.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Uber</div>
+        <video src="/src/videos/meios_de_transporte/uber.mp4"></video>
+        <p></p>
+      </div>
+      <div class="video">
+        <div class="video-name">Resumo (todos os sinais)</div>
+        <video src="/src/videos/meios_de_transporte/todos os sinais.mp4"></video>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <script>
+    var video = document.querySelectorAll('video');
+    video.forEach(play => play.addEventListener('click', () => {
+      play.classList.toggle("active");
+      if (play.paused) {
+        play.play();
+      } else {
+        play.pause();
+        play.currentTime = 0;
+      }
+    }));
+  </script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

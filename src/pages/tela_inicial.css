@@ -13,24 +13,19 @@ body {
 }
 
 .titulo {
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
-    font-family: 'Graphik-Medium';
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 50px;
 }
 
 .subtitulo {
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
-    font-family: 'Graphik-Medium';
+    font-family: "Times New Roman", Times, serif;
     margin: 30px;
-}
+    margin-top: 100px;
 
-.subtitulo2{
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Graphik-Medium';
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 /*.escolha {
@@ -40,3 +35,14 @@ body {
     font-family: 'Graphik-Medium';
     margin: 50px;
 }*/
+
+.imagem {
+    width: 900px;
+    height: 300px;
+    border: 2px solid #333;
+    margin: 10px;
+    margin-left: 280px;
+    margin-top: 80px;
+    /* Outros estilos personalizados */
+    justify-content: center;
+}
